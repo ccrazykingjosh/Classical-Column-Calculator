@@ -15,9 +15,10 @@ Defaults are sourced from the Parthenon, Athens (447 BC).
 ## Setup
 1. Clone the repo
 2. Install dependencies: `pip install django`
-3. Run migrations: `python manage.py migrate`
-4. Start the server: `python manage.py runserver`
-5. Visit `http://127.0.0.1:8000`
+3. Make the migrations `python manage.py makemigrations`
+4. Run migrations: `python manage.py migrate`
+5. Start the server: `python manage.py runserver`
+6. Visit `http://127.0.0.1:8000`
 
 ## Tech Stack
 Python · Django · HTML/CSS/JS
